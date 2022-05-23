@@ -47,3 +47,16 @@ docker build -t swagger_server .
 # starting up a container
 docker run -p 8080:8080 swagger_server
 ```
+
+---
+
+#Diagramme de séquence
+
+###Payment not processed yet
+![Payment_not_processed_yet](./docs/Payment_not_processed_yet.png)
+
+###Payment already processed
+![Payment_already_processed](./docs/Payment_already_processed.png)
+
+###bad request
+![bad request](./docs/Bad_request.png)
